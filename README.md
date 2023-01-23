@@ -39,6 +39,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 Admin.py
 
 from django.contrib import admin
+
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
 ```
